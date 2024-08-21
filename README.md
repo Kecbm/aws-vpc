@@ -2,6 +2,8 @@
 
 🏗️📦☁️ Repositório da aula de VPC do curso Arquitetura de Containers na AWS da LINUXTips - ministrado pelo [Matheus Fidelis](https://github.com/msfidelis)
 
+<br>
+
 ## Programas necessários
 
 Para desenvolver o projeto, é necessário instalar o [Terraform Switcher](https://tfswitch.warrensbox.com/Install/) e o [AWS CLI](https://docs.aws.amazon.com/pt_br/cli/latest/userguide/getting-started-install.html).
@@ -9,6 +11,8 @@ Para desenvolver o projeto, é necessário instalar o [Terraform Switcher](https
 ## Usuário na AWS
 
 Criação do usuário na aws com acesso de admin na conta e geração das keys de acesso a conta.
+
+<br>
 
 ## O que foi desenvolvido
 
@@ -18,9 +22,13 @@ Criação do usuário na aws com acesso de admin na conta e geração das keys d
 
 O primeiro passo do projeto foi a criação de uma `VPC`. Em seguida definimos as `subnets privadas`, `subnets publicas` e `databases`. Como configuração adicional, desenvolvemos a `internet gatway`, `nat gateway` e `routing table`.
 
+<br>
+
 ## Tecnologias utilizadas
 
 <img title="AWS" alt="AWS" height="80" width="80" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" /> <img title="Terraform" alt="Terraform" height="80" width="80" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/terraform/terraform-original.svg" />
+
+<br>
 
 ## Terraform
 
@@ -41,6 +49,8 @@ Para excluir algum recurso criado:
 ```bash
 terraform destroy --auto-approve -var-file=environment/dev/terraform.tfvars
 ```
+
+<br>
 
 ## Utilitários
 
