@@ -18,6 +18,10 @@ Criação do usuário na aws com acesso de admin na conta e geração das keys d
 
 O primeiro passo do projeto foi a criação de uma `VPC`. Em seguida definimos as `subnets privadas`, `subnets publicas` e `databases`. Como configuração adicional, desenvolvemos a `internet gatway`, `nat gateway` e `routing table`.
 
+## Tecnologias utilizadas
+
+<img title="AWS" alt="AWS" height="80" width="80" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" /> <img title="Terraform" alt="Terraform" height="80" width="80" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/terraform/terraform-original.svg" />
+
 ## Terraform
 
 Para padronizar a identação dos arquivos terraform, rodar o comando:
