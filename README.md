@@ -12,7 +12,7 @@ Criação do usuário na aws com acesso de admin na conta e geração das keys d
 
 ## O que foi desenvolvido
 
-[VPC](docs/vpc.png)
+![VPC](docs/vpc.png)
 
 > Imagem copiada do [Repositório do Alex Soares](https://github.com/So4resAlex/aws-containers-vpc)
 
