@@ -15,12 +15,16 @@ Antes de começar, certifique-se de ter os seguintes programas instalados:
 - [Terraform Switcher (tfswitch)](https://tfswitch.warrensbox.com/Install/): Facilita a alternância entre diferentes versões do Terraform.
 - [AWS CLI](https://docs.aws.amazon.com/pt_br/cli/latest/userguide/getting-started-install.html): Interface de linha de comando para gerenciar os serviços da AWS.
 
+<br>
+
 ## Configuração do Usuário AWS
 
 <ol>
     <li><b>Criação do Usuário AWS:</b> Crie um usuário com permissões de administrador na conta AWS.</li>
     <li><b>Geração das Credenciais:</b> Gere as chaves de acesso (Access Key ID e Secret Access Key) para configurar a CLI e permitir que o Terraform interaja com a AWS.</li>
 </ol>
+
+<br>
 
 ## Configuração do Ambiente
 
@@ -45,6 +49,8 @@ O projeto foi desenvolvido para implementar uma infraestrutura de rede segura e 
     <li><b>Parameter Store:</b> Armazenamento seguro de parâmetros de configuração, como segredos e variáveis sensíveis;</li>
     <li><b>Outputs:</b> Exposição dos valores importantes após a execução do Terraform, como IDs de VPC, Subnets, etc.</li>
 </ul>
+
+<br>
 
 ![VPC](docs/vpc.png)
 
