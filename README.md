@@ -22,6 +22,12 @@ Antes de começar, certifique-se de ter os seguintes programas instalados:
     <li><b>Geração das Credenciais:</b> Gere as chaves de acesso (Access Key ID e Secret Access Key) para configurar a CLI e permitir que o Terraform interaja com a AWS.</li>
 </ol>
 
+## Configuração do Ambiente
+
+Antes de executar o **Terraform**, você precisa configurar os arquivos de variáveis específicas do ambiente. Para isso, copie o arquivo `terraform.tfvars.example` e cole na pasta renomeando para `terraform.tfvars`. Em seguida preencha os campos com as informações necessárias.
+
+Siga o mesmo procedimento para o arquivo `backend.tfvars.example` e gere o arquivo `backend.tfvars` com as informações necessárias.
+
 <br>
 
 ---

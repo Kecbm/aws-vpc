@@ -1,0 +1,3 @@
+bucket         = "nome-do-seu-bucket-s3"
+key            = "vpc/dev/state"
+region         = "us-east-1"
