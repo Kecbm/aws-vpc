@@ -52,6 +52,8 @@ O projeto foi desenvolvido para implementar uma infraestrutura de rede segura e 
 
 <br>
 
+![Arquitetura Inicial](docs/arquitetura-inicial.png)
+
 ![VPC](docs/vpc.png)
 
 > Imagem copiada do [Repositório do Alex Soares](https://github.com/So4resAlex/aws-containers-vpc).
