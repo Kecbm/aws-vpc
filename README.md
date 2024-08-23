@@ -12,7 +12,7 @@ Este repositório contém os arquivos de configuração Terraform para a criaç�
 
 Antes de começar, certifique-se de ter os seguintes programas instalados:
 
-- [Terraform Switcher (tfswitch)](https://tfswitch.warrensbox.com/Install/): Facilita a alternância entre diferentes versões do Terraform.
+- [Terraform Switcher (tfswitch)](https://tfswitch.warrensbox.com/Install/): Facilita a alternância entre diferentes versões do Terraform;
 - [AWS CLI](https://docs.aws.amazon.com/pt_br/cli/latest/userguide/getting-started-install.html): Interface de linha de comando para gerenciar os serviços da AWS.
 
 <br>
@@ -20,7 +20,7 @@ Antes de começar, certifique-se de ter os seguintes programas instalados:
 ## Configuração do Usuário AWS
 
 <ol>
-    <li><b>Criação do Usuário AWS:</b> Crie um usuário com permissões de administrador na conta AWS.</li>
+    <li><b>Criação do Usuário AWS:</b> Crie um usuário com permissões de administrador na conta AWS;</li>
     <li><b>Geração das Credenciais:</b> Gere as chaves de acesso (Access Key ID e Secret Access Key) para configurar a CLI e permitir que o Terraform interaja com a AWS.</li>
 </ol>
 
@@ -102,6 +102,17 @@ Se precisar excluir os recursos criados, execute:
 ```bash
 terraform destroy --auto-approve -var-file=environment/dev/terraform.tfvars
 ```
+
+<br>
+
+---
+
+## Utilitários
+
+Nesta seção, você encontrará links úteis que complementam a implementação deste projeto de `VPC` na `AWS` utilizando `Terraform`. Esses recursos são essenciais para quem deseja aprofundar seu conhecimento sobre o tema, oferecendo uma compreensão mais abrangente das melhores práticas e das decisões arquitetônicas envolvidas.
+
+- [Exemplo de Documentação](https://github.com/So4resAlex/aws-containers-vpc?tab=readme-ov-file): Este link leva a um exemplo detalhado de documentação de um projeto semelhante. Ele pode servir como uma referência para estruturar sua própria documentação, garantindo que todos os aspectos críticos do projeto sejam claramente comunicados e facilmente compreendidos;
+- [Motivação para Implementação da VPC](https://github.com/buarki/linuxtips-containers-vpc-aws): Aqui você encontrará um exemplo prático que explica a motivação por trás da implementação de uma VPC com esta estrutura específica. Este recurso pode ser especialmente útil para justificar as escolhas de design do projeto e fornecer um contexto mais amplo sobre as vantagens e desafios envolvidos.
 
 <br>
 
